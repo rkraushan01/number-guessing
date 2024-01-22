@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numberGuessing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favImage.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Number guessing game</h1>
+        <p>Guess a number between 1 to 100</p>
+        <p>You have total 10 attempts.</p>
+
+        <form class="form">
+            <label2 for="guessField" id="guess">Guess a number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        </form>
+        <div class="resultParas">
+            <p >Previous Guesses: <span class="guesses"></span></p>
+            <p >Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+
+
+    </div>
+ 
+    <footer class="footer">
+        &copy; 2024 All Rights Reserved. Anonymous Coder
+    </footer>
+  
+
+
+
+    <script src="script.js"></script>
+</body>
+  
+</html>
